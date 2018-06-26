@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageFoto"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_maps_and_flags" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textoNomeLocal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Porto Alegre"
+                />
+
+            <TextView
+                android:id="@+id/textoDataIda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12/12/2018" />
+
+            <TextView
+                android:id="@+id/textoDataVolta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="29/12/2018" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
